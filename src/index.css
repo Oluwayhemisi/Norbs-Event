@@ -1,0 +1,11 @@
+:root{
+  --primary_green:#0CCE6B;
+  --primary_black:#0C090D;
+}
+*{    
+  font-family: 'Mingzat', sans-serif;
+}
+.body{
+  margin: 0;
+  box-sizing: border-box;
+}
