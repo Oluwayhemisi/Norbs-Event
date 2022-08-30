@@ -1,0 +1,56 @@
+.my-events-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-radius: 4px;
+    align-items: center;
+    background-color: white;
+}
+
+.my-events-header>button {
+    background-color: var(--primary_black);
+    border: unset;
+    padding: 12px 30px;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 45px;
+}
+
+.my-events-header-filter {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#filter-date {
+    width: 200px;
+    height: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.my-events-header-filter p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--primary_green);
+    font-weight: bold;
+
+}
+
+.my-events-container {
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#filter-search {
+    height: 40px;
+    margin-top: 5px;
+    width: 35em;
+}

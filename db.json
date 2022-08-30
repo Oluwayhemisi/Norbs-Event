@@ -1,0 +1,50 @@
+{
+  "accounts": [
+    {
+      "phone": "08101667784",
+      "password": "123",
+      "confirm": "123",
+      "firstName": "Funmilayo",
+      "lastName": "Omisande",
+      "email": "omisandefunmi@gmail.com",
+      "id": 1
+    },
+    {
+      "phone": "08101667784",
+      "password": "123",
+      "confirm": "123",
+      "firstName": "Funmilayo",
+      "lastName": "Omisande",
+      "email": "omisandefunmi@gmail.com",
+      "id": 2
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "date_created": "2015-12-23",
+      "date_updated": "2015-12-23",
+      "location": "",
+      "venue": "",
+      "stop_time": "",
+      "start_time": "",
+      "event_theme": "",
+      "description": "",
+      "event_date": "",
+      "event-category": "",
+      "created-by": "",
+      "host": "",
+      "guests": [],
+      "attendees": [],
+      "event-banner": "",
+      "event-image": "",
+      "sponspors": [],
+      "ticket-category": "",
+      "ticket-fee": "",
+      "event_team": [],
+      "event_dress_code": "",
+      "number_of_seats": "",
+      "available-tickets": ""
+    }
+  ]
+}

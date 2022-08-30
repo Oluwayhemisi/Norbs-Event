@@ -1,7 +1,6 @@
 .input-container{
     height:50px;
-    border: 1px solid var(--primary_green);
-    width: 330px;
+    border: 2px solid white;
     border-radius: 3px;
     display: flex;
     align-items: center;
@@ -10,17 +9,23 @@
     padding: 0 10px;
 }
 .label-container{
-    background-color: var(--primary_green);
+    background-color: white;
     height: 20px;
-    width: 66px;
     border-radius: 4px;
+    min-width: 65px;
+    padding: 0 5px;
     position: absolute;
     left: 18px;
     top: -9px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+}
+.label-container label{
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
 }
 .input-container input{
     height: auto;
@@ -37,7 +42,10 @@
 .input-container:focus-within{
     border: 2px solid var(--primary_green);
 }
-.input-container img{
+.input-container:focus-within > .label-container {
+    background-color: var(--primary_green);
+}
+.input-container svg{
     height: 16px;
 
 }

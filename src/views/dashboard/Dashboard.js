@@ -1,0 +1,20 @@
+import React from 'react'
+import {Route, Routes } from 'react-router-dom'
+import MyEvents from './pages/MyEvents'
+import Container from '../../components/dashboard/Container'
+import  "./dashboard.css"
+
+
+const Dashboard=() =>{
+    return (
+        <div className='dashboardContainer'>
+            <Container>
+                <Routes>
+                    <Route path="/" element ={<MyEvents/>}/>
+                </Routes>
+            </Container>
+
+        </div>
+    )
+}
+export default Dashboard
